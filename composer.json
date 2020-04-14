@@ -1,5 +1,12 @@
 {
   "name": "dy/blog",
+  "description": "刘东源第一个composer包",
+  "authors": [
+    {
+      "name": "Doyuan"
+    }
+  ],
+  "license": "MIT",
   "repositories": [
     {
       "type": "vcs",
