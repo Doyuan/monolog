@@ -1,19 +1,18 @@
 {
-  "name": "dy/blog",
-  "description": "刘东源第一个composer包",
+  "name": "dongyuan/log",
+  "description": "东源第一个composer包",
   "authors": [
     {
-      "name": "Doyuan"
+      "name": "东源"
     }
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": ""
-    }
-  ],
   "require": {
     "monolog/monolog": "1.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dong\\Log\\": "src/"
+    }
   }
 }
